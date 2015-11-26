@@ -10,21 +10,23 @@ public class MadlibsOfTheAmazon {
 		JOptionPane.showMessageDialog(null, "If you find yourself having to cross a piranha-infested river, here's how to do it...");
 
 		// Get the user to enter an adjective
-		JOptionPane.showInputDialog("Give me an adjective.");
+		String adj = JOptionPane.showInputDialog("Give me an adjective.");
+		
+		
 
 		// Get the user to enter a type of liquid
-		JOptionPane.showInputDialog("Give me a type of liquid.");
+		String liquid = JOptionPane.showInputDialog("Give me a type of liquid.");
 		
 		
 
 		// Get the user to enter a body part
-		JOptionPane.showInputDialog("Give me a body part.");
+		String body = JOptionPane.showInputDialog("Give me a body part.");
 
 		// Get the user to enter a verb
-		JOptionPane.showInputDialog("Give me a verb.");
+		String verb = JOptionPane.showInputDialog("Give me a verb.");
 
 		// Get the user to enter a place
-		JOptionPane.showInputDialog("Give me a place.");
+		String place = JOptionPane.showInputDialog("Give me a place.");
 
 		// Fit the user's words into this sentence, and save it in a String:
 		// Piranhas are more [adjective] during the day, so cross the river at
@@ -32,6 +34,7 @@ public class MadlibsOfTheAmazon {
 		// likely take a bite out of your [body part] if you [verb]. Whatever
 		// you do, if you have an open wound, try to find another way to get
 		// back to the [place]. Good luck!
+		JOptionPane.showMessageDialog(null, ");
 		
 		// Make a pop-up for the final story. You can use \n to go to the next line.
 		
